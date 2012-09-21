@@ -2,14 +2,17 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass', '2.0.4'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
+  gem 'pg', '0.14.1'
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '0.5.5'
   gem 'guard-spork', '0.3.2'
   gem 'spork', '0.9.0'  
 end
+
+gem 'annotate', '2.5.0', group: :development
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,5 +31,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg', '0.14.1'
 end
