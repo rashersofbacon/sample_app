@@ -9,7 +9,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_app
+  database: sample_app_test
+  pool: 5
+  username: mrdavidbacon
+  password: 12cpziag  
+
+  production:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app_production
   pool: 5
   username: mrdavidbacon
   password: 12cpziag  
