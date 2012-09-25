@@ -6,7 +6,7 @@ development:
   username: mrdavidbacon
   password: 12cpziag
 
-test:
+test: &test
   adapter: postgresql
   encoding: unicode
   database: sample_app_test
@@ -21,3 +21,5 @@ test:
   pool: 5
   username: mrdavidbacon
   password: 12cpziag  
+cucumber:
+  <<: *test

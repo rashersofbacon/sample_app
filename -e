@@ -1,4 +1,4 @@
-Exception encountered: #<LoadError: cannot load such file -- /home/davidb/rails_projects/sample_app/signup with valid information>
+Exception encountered: #<LoadError: cannot load such file -- /home/davidb/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb>
 backtrace:
 /home/davidb/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:245:in `load'
 /home/davidb/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:245:in `block in load'
